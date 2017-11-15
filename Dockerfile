@@ -1,7 +1,7 @@
 FROM java:8-jdk
 
 WORKDIR /home/apps/
-ADD target/testabcd-1.0.0.jar .
+ADD target/newtest1115-1.0.0.jar .
 ADD target/lib ./lib
 ADD start.sh .
 
